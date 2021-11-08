@@ -1,15 +1,11 @@
 import React from 'react'
-import SexyNigga from './SexyNigga'
 
-function Young({name, price, description , tag}) {
+
+function Navbar() {
     return (
-        <div>
-          <SexyNigga name={name} description={description} tag={tag} />  
-          <h2>{price}</h2>      
-
-            
+        <div>    
         </div>
     )
 }
 
-export default Young
+export default Navbar

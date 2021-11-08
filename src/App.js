@@ -1,5 +1,5 @@
 import './App.css';
-import Young from './Navbar';
+import Navbar from './Navbar'
 
 function App() {
   return (
