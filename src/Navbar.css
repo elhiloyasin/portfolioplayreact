@@ -1,7 +1,7 @@
-
+/* 
 body {
-  background-color: #ff9f1a;
-}
+  
+} */
 
 
 
@@ -19,12 +19,13 @@ body {
 
 a:link {
   text-decoration: none;
+
 }
 
 .nav-item {
 list-style: none;
 margin-right: 10px;
-color:black;
+color:rgb(30, 119, 16);
 
 }
 
@@ -32,6 +33,11 @@ color:black;
  flex: 1;
 }
 
+
+.logo{
+  font-size: 30px;
+  color: #006636;
+}
 
 
 @media (max-width:600px) {

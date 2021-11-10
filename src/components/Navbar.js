@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 
 
@@ -9,7 +9,7 @@ function Navbar({ aboutme, projects, contact, logo }) {
       <nav>
         <ul className='nav-list'>
         <div className="spacer">
-          <h1 className='logo'>{logo}</h1>
+          <li><NavLink exact to='/' className='logo' activeClassName=''>{logo}</NavLink></li>
           </div>
           <li><NavLink exact to='aboutme' className='nav-item' activeClassName='young'>{aboutme}</NavLink></li>
           <li><NavLink exact to='projects' className='nav-item' activeClassName='yaze'>{projects}</NavLink></li>
