@@ -1,0 +1,33 @@
+
+body {
+  background-color: white;
+}
+
+
+
+.nav-list{  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center;
+  height: 500px;
+  border: 2px solid black;
+
+ 
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.nav-item {
+list-style: none;
+margin-right: 10px;
+color:black;
+}
+
+
+
+
+
+
