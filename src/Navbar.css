@@ -5,16 +5,14 @@ body {
 
 
 
-.nav-list{  
+.nav-list {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  align-items:center;
-  height: 500px;
+  align-items: center;
+  height: 50px;
   border: 2px solid black;
-
- 
 }
+
 
 a:link {
   text-decoration: none;
@@ -24,6 +22,19 @@ a:link {
 list-style: none;
 margin-right: 10px;
 color:black;
+}
+
+.spacer {
+  flex: 1;
+}
+
+@media (max-width:400px) {
+  .nav-list {
+    background-color: red;
+    flex-direction: column;
+   
+  }
+
 }
 
 
