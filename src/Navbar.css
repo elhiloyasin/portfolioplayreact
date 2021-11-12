@@ -5,7 +5,6 @@
   box-sizing: border-box;
   margin: 0;
   padding:0;
-  background-color: #0404043f;
 }
 
 
@@ -13,26 +12,31 @@ li , a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   font-size: 0.9rem;
-  color: #edf0f1;
+  color: #04eecf;
   text-decoration: none;
-  /* list-style: none; */
 }
 
 header {
   display: flex;
   justify-content: flex-end;
-  align-items:inherit; 
-  height: 1rem;
+  flex-direction: row;
+  align-items: center;
+  height: 4rem;
   padding: .9rem 7%;
- 
+  background-color: #0e4262;
+  box-shadow: 5px 10px 1rem rgb(255, 0, 0);
   
 }
-
 
 
 .spacer{
 flex: 1;
  
+}
+
+.logo{
+  font-size: 2rem;
+  color: #d53c21;
 }
 
 .nav-links{
@@ -56,5 +60,18 @@ padding: 0 .5rem;
 }
 
 .active{
-  color:green;
+  color:rgb(9, 134, 230);
+}
+
+@media (max-width:600px){
+  .logo{
+    margin-top: 1rem;
+   
+  }
+ 
+ header {
+   flex-direction: column;
+ }
+
+ 
 }
