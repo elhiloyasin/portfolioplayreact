@@ -8,7 +8,9 @@ function Navbar({ aboutme, projects, contact, logo }) {
     <div>
       <header>
         <div class="spacer">
-        <li><Link exact to='/' className='logo'>{logo}</Link></li>
+        
+      <Link exact to='/' className='logo'>{logo}</Link>
+          
         </div>
         <nav>
           <ul className='nav-links'>
