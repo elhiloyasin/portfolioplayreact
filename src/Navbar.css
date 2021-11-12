@@ -1,70 +1,60 @@
-/* 
-body {
-  
-} */
-.nav-list {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  line-height: 3rem;
-  background: rgb(16, 14, 14);
-  margin: auto;
-  padding-right: 3rem;
-  padding-left: 4rem;
-  
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:500');
 
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding:0;
+  background-color: #0404043f;
+}
+
+
+li , a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #edf0f1;
+  text-decoration: none;
+  /* list-style: none; */
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items:inherit; 
+  height: 1rem;
+  padding: .9rem 7%;
+ 
   
 }
 
-a:link {
-  text-decoration: none;
+
+
+.spacer{
+flex: 1;
+ 
+}
+
+.nav-links{
+  list-style: none;
+  
+}
+
+.nav-links li {
+display: inline-block;
+padding: 0 .5rem;
+
+}
+
+.nav-links li a{
+  transition: all 0.3s ease 0s;
+}
+
+
+.nav-links li a:hover{
+  color: #d02507 ;
 }
 
 .active{
- color:rgb(0, 72, 255) !important;
-
+  color:green;
 }
-
-
-
-
-.nav-items {
-list-style: none;
-margin-right: 1rem;
-color:#16d4c1;
-font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-font-weight: 700;
-font-size: 1rem;
-
-
-}
-.spacer {
- flex: 1;
-}
-
-.logo{
-  font-size: 2rem;
-  color: #006636;
-}
-
-
-@media (max-width:600px) {
-  .nav-list {
-    flex-direction: column;
-  
-  }
-
-  .nav-items {
-    display:flex;
-    flex-direction: row;
-  }
-
-
-}
-
-
-
-
-
-
