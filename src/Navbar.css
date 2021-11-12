@@ -8,6 +8,8 @@
 }
 
 
+
+
 li , a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
@@ -25,6 +27,7 @@ header {
   padding: .9rem 7%;
   background-color: #0e4262;
   box-shadow: 5px 10px 1rem rgb(255, 0, 0);
+  
   
 }
 
@@ -71,6 +74,7 @@ padding: 0 .5rem;
  
  header {
    flex-direction: column;
+  
  }
 
  
